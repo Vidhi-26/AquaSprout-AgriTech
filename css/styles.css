@@ -1,0 +1,277 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.pages {
+    width: 100%;
+    height: 100% !important;
+}
+
+/*** Header navbar starts ***/
+#logo {
+    width: 8%;
+}
+
+nav {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    width: 100%;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+} 
+
+nav a {
+    color: #000000 !important;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-link:hover {
+    color: #00000080!important;
+}
+/*** Header navbar ends ***/
+
+/*** Home starts ***/
+#home {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    padding-bottom: 16%;
+}
+
+#home-info {
+    margin: 22.5% 0 0 50px;
+}
+
+#slogan {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2.8em;
+}
+
+#mission {
+    margin-top: 5.5%;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+#home-img {
+    width: 100% !important;
+    position: relative;
+    left: 35%;
+    top: 42.5%;
+}
+
+#home .float-child {
+    width: 40%;
+    float: left;
+}
+/*** Home ends ***/
+
+/*** About starts ***/
+#about {
+    background-color: #fafafa;
+}
+
+#about .float-child {
+    width: 40%;
+    float: left;
+}
+
+#about-img {
+    margin-left: 15px;
+    width: 110% !important;
+    position: relative;
+    top: 17%;
+}
+
+#about-info {
+    margin-left: 10%;
+    margin-top: 7%;
+    width: 45% !important;
+}
+
+#about-info h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+#about-info li {
+    line-height: 2.2em;
+    font-size: 1.1em;
+}
+
+#about-info ul {
+    list-style-type: square !important;
+}
+
+#solution-info {
+    margin-top: 40px;
+}
+
+#learn-more-button {
+    border-color: #fafafa;
+    border-radius: 1.3em;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    width: 150px;
+    height: auto;
+    margin-top: 25%;
+    margin-left: 42.5%;
+    font-size: 14px;
+    color: #000000;
+}
+
+#learn-more-button:hover {
+    background: black;
+}
+
+#learn-more-button a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+#learn-more-button:hover a {
+    color: #ffffff;
+}
+/*** About ends ***/
+
+/*** Tech starts ***/
+#tech {
+    background-color: #fafafa;
+}
+
+#tech-info {
+    margin: 10% 0 10% 100px;
+}
+
+.tech-img {
+    position: relative;
+    left: 20%;
+}
+
+#tech .float-child {
+    width: 40%;
+    float: left;
+}
+
+#tech-info h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+#tech-info p {
+    line-height: 1.5em;
+}
+
+#mobile-info {
+    margin-top: 40px;
+}
+
+#proto-1 {
+    width: 52% !important;
+    top: 16%;
+}
+
+#proto-2 {
+    width: 48% !important;
+    top: 17%;
+}
+
+#mobile-button {
+    border-color: #fafafa;
+    border-radius: 1.3em;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    /* width: 150px; */
+    height: auto;
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 14px;
+    color: #000000;
+}
+
+#mobile-button:hover {
+    background: black;
+}
+
+#mobile-button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#mobile-button:hover a {
+    color: #ffffff;
+}
+/*** Tech ends ***/
+
+/** Footer starts **/
+#entire-footer {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+#title-footer {
+    padding: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: black;
+}
+
+#input-fields input[type="text"], input[type="text"]:focus {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+
+#input-fields input[type="text"]:focus {
+    border-bottom: 2px solid black;
+}
+
+#input-fields ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    font-size: 14px;
+}
+
+#names-field {
+    width: 84%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button[type="submit"] {
+    border-color: #3b2fe4;
+    border-radius: 1.3em;
+    background-color: #3b2fe4;
+    width: 130px;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+button[type="submit"]:hover {
+    background: black;
+    color: white;
+}
+
+#end-footer {
+    font-size: 14px;
+    color: black;
+    background-color: #fafafa;
+}
+/*** Footer ends ***/
